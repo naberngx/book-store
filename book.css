@@ -136,6 +136,11 @@ footer nav a {
 /* Media Query For Mobile */
 @media screen and (max-width: 960px) {
 
+    main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .detail .all-img {
         overflow: hidden;
         display: block;
@@ -158,6 +163,7 @@ footer nav a {
     }
 
     footer {
+        height: 400px;
         text-align: center;
         align-items: center;
         justify-content: center;
