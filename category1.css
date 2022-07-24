@@ -61,11 +61,10 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 100%;
 }
 
-#category .subcategory-row {
+#category .category-row {
     background-color: #fcf6b1;
     margin-bottom: 100px;
     padding: 50px;
