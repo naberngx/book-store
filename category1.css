@@ -133,16 +133,9 @@ footer nav a {
         margin-left: 50px;
         margin-right: 50px;
     }
-    #category table {
-        display: block;
-    }
-
-    #category table {
-        display: block;
-    }
-
-    #category table:nth-child(even) {
-		flex-direction: row-reverse;
+    #category .book img {
+        height: 150px;
+        padding-bottom: 20px;
     }
 
     header {
@@ -164,6 +157,8 @@ footer nav a {
     footer nav {
         display: block;
         justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }
