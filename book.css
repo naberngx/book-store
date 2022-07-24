@@ -181,7 +181,7 @@ footer nav a {
     footer nav {
         display: block;
         justify-content: space-between;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }

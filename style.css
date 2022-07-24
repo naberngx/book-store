@@ -135,7 +135,7 @@ footer nav a {
         margin-right: 50px;
     }
     #category .book img {
-        height: 150px;
+        height: 100px;
         padding-bottom: 20px;
     }
 
@@ -158,8 +158,8 @@ footer nav a {
     footer nav {
         display: block;
         justify-content: space-between;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
 
 }
