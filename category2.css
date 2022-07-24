@@ -65,7 +65,7 @@ main {
 }
 
 #category .category-row {
-    background-color: #fcf6b1;
+    background-color: #eceacb;
     margin-bottom: 100px;
     padding: 50px;
     border-radius: 2cm;
@@ -76,16 +76,16 @@ main {
 }
 
 #category .heading h1 {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: white;
+    background-color: black;
     border-radius: 2cm;
     padding: 5px;
 }
 
 #category .heading h1:hover {
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: #fcf6b1;
 }
 
 #category table {
@@ -100,21 +100,6 @@ main {
 #category .book a {
     font-family: 'Nunito', sans-serif;
     color: black;
-}
-
-footer {
-    background-color: black;
-    height: 200px;
-    text-align: center;
-    align-items: center;
-}
-
-footer nav a {
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    display: block;
-    line-height: 1cm;
-    text-decoration: underline;
 }
 
 footer {
