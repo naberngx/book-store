@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <div class="logo">
+          <a href="home.html"><img src="img/logo.png" alt="logo" /></a>
+        </div>
+        <nav>
+          <a href="home.html">Home</a>
+          <a href="category1.html">Novel</a>
+          <a href="category2.html">Fiction</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="contact">
+        <div class="contact-container">
+          <div class="input-form">
+            <div class="form-header">
+              <h1>Contact Us</h1>
+            </div>
+            <br />
+            <div class="input-info">
+              <select name="santas-list">
+                <option value="" selected>Contact Purpose</option>
+                <option value="1">I want to sell books</option>
+                <option value="2">I want to buy books</option>
+              </select>
+              <br />
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                autocomplete="off"
+              />
+              <br />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                pattern="[^@]*@[^@]*"
+              />
+              <br />
+
+              <input type="tel" name="phone" placeholder="Phone number" />
+
+              <label for="contact">
+                <p><b>How can we contact you:</b></p></label
+              >
+              <input type="checkbox" name="seeks[]" value="male" />By email
+              <input type="checkbox" name="seeks[]" value="female" />By phone
+
+              <label for="newsletter"
+                ><p><b>Do you want to receive our newletters</b></p></label
+              >
+              <input type="radio" id="yes" name="prez" value="yes" checked />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" name="prez" value="no" />
+              <label for="no">No</label>
+              <br />
+
+              <input
+                type="textarea"
+                name="note"
+                placeholder="Note"
+                autocomplete="off"
+              />
+              <br />
+              <button type="submit">Send</button>
+              <button type="reset">Reset</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Copyright</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </footer>
+  </body>
+</html>

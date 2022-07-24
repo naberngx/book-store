@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f7b32b;
+    min-height: 8vh;
+    align-items:center ;
+}
+
+
+header .logo img {
+    height: 50px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+}
+
+header nav a {
+    font-size: 17px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    background-color: #eceacb;
+    padding: 10px;
+    border-radius: 2cm;
+}
+
+header nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+main {
+padding-top: 50px;
+padding-bottom: 50px;
+font-family: 'Nunito', sans-serif;
+text-align: center;
+}
+
+
+  #contact .contact-container h1 {
+    font-size: 30px;
+  }
+
+  #contact .input-info {
+    line-height: 1.5cm;
+  }
+
+  #contact .input-info input {
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    resize: none;
+  }
+
+  #contact button {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f7b32b;
+    padding: 10px;
+    border-radius: 2cm;
+    border-color: transparent;
+    font-weight: 1000;
+  }
+
+  footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 200px;
+    padding-right: 200px;  
+}
+
+footer nav a {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1cm;
+    text-decoration: underline;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 960px) {
+    
+    
+}
+/* Media Query For Mobile */
+@media only screen and (max-width: 960px) {
+
+    header {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav {
+        display: block;
+        justify-content: space-between;
+    }
+
+    footer {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    footer nav {
+        display: block;
+        justify-content: space-between;
+    }
+
+}
