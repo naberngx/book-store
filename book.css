@@ -123,14 +123,24 @@ footer {
     height: 200px;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 200px;
+    padding-right: 200px;  
 }
 
 footer nav a {
     color: white;
     font-family: 'Nunito', sans-serif;
-    display: block;
     line-height: 1cm;
     text-decoration: underline;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Media Query For Mobile */
